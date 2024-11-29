@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Paquete</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form select, form button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+		.botonInicio {
+				            background-color: #007BFF;
+				            color: white;
+				            cursor: pointer;
+				            border: none;
+				            padding: 10px;
+				            border-radius: 5px;
+				            font-size: 16px;
+				            display: block;
+				            width: 200px; /* Define un ancho fijo */
+				            margin: 20px auto; /* Centra el botón horizontalmente */
+				        }
+
+				        .botonInicio:hover {
+				            background-color: #0056b3;
+				        }
+        .paquete-item {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .paquete-item p {
+            margin: 5px 0;
+        }
+        .paquete-item button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .paquete-item button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Registrar Paquete</h1>
+    </header>
+    <main>
+        <!-- Mensajes de éxito o error -->
+        <div th:if="${success}" style="color: green;">[[${success}]]</div>
+        <div th:if="${error}" style="color: red;">[[${error}]]</div>
+
+        <!-- Formulario para agregar un paquete -->
+		<form th:action="@{/paquetes/agregar}" method="post">
+		    <input type="text" name="nombre" placeholder="Nombre del Paquete" required>
+		    <input type="text" name="descripcion" placeholder="Descripción" required>
+			<!-- Lista de selección de Origen -->
+			            <select name="origen" required>
+						                <option value="" disabled selected>Selecciona la Ciudad de Origen</option>
+						                <option th:each="ciudad : ${ciudades}" 
+						                        th:value="${ciudad.ciudad}" 
+						                        th:text="${ciudad.ciudad} + ' - ' + ${ciudad.provincia}"></option>
+						            </select>
+					  <select name="destino" required>
+									     <option value="" disabled selected>Selecciona la Ciudad de Origen</option>
+										 <option th:each="ciudad : ${ciudades}" 
+										 th:value="${ciudad.ciudad}" 
+										th:text="${ciudad.ciudad} + ' - ' + ${ciudad.provincia}"></option>
+									</select>
+		    <input type="number" name="peso" placeholder="Peso" required>
+		    <select name="estado" required>
+		        <option value="pendiente">Pendiente</option>
+		        <option value="en transito">En Transito</option>
+		        <option value="entregado">Entregado</option>
+		    </select>
+		    <button type="submit">Registrar Paquete</button>
+		</form>
+
+        <!-- Lista de paquetes -->
+        <div th:each="paquete : ${paquetes}" class="paquete-item">
+            <p><strong>Nombre:</strong> <span th:text="${paquete.nombre}"></span></p>
+            <p><strong>Descripción:</strong> <span th:text="${paquete.descripcion}"></span></p>
+            <p><strong>Peso:</strong> <span th:text="${paquete.peso}"></span></p>
+            <p><strong>Destino:</strong> <span th:text="${paquete.destino}"></span></p>
+            <p><strong>Estado:</strong> <span th:text="${paquete.estado}"></span></p>
+            <form th:action="@{/paquetes/eliminar/{id}(id=${paquete.id})}" method="post">
+                <button type="submit">Eliminar</button>
+            </form>
+        </div>
+
+        <div th:if="${#lists.isEmpty(paquetes)}">
+            <p>No hay paquetes disponibles.</p>
+        </div>
+		
+		<!-- Botón para volver al índice -->
+		<button class="botonInicio" type="button" onclick="window.location.href='/'">Volver al Inicio</button>
+
+    </main>
+</body>
+</html>

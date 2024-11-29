@@ -1,0 +1,9 @@
+<form action="/consultar-caminos" method="post">
+    <label for="codigoPostal">Código Postal (4 dígitos):</label>
+    <input type="text" id="codigoPostal" name="codigoPostal" maxlength="4" required>
+    <button type="submit">Consultar Caminos</button>
+</form>
+
+<div id="resultados">
+    <!-- Los resultados se mostrarán aquí -->
+</div>

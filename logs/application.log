@@ -1,0 +1,619 @@
+2024-11-23T10:49:46.573-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 6316 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:49:46.573-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:49:46.946-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:49:46.972-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:49:47.158-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:49:47.160-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:49:47.161-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:49:47.191-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:49:47.192-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2024-11-23T10:49:47.254-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:49:47.260-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:49:47.279-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:49:47.282-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-23T10:49:47.318-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e77bb97
+2024-11-23T10:49:47.318-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-23T10:49:47.322-03:00  WARN 6316 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:49:47.414-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:49:47.430-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:49:47.645-03:00  WARN 6316 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:49:47.669-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:49:47.901-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T10:49:47.930-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T10:49:47.945-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.462 seconds (process running for 39.483)
+2024-11-23T10:49:47.949-03:00  INFO 6316 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T10:49:54.494-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 8036 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:49:54.503-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:49:54.733-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T10:49:54.734-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T10:49:56.084-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:49:56.399-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:49:57.558-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:49:57.589-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:49:57.589-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:49:57.684-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:49:57.684-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2949 ms
+2024-11-23T10:49:57.954-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:49:58.048-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T10:49:58.115-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:49:58.753-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:49:58.818-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T10:49:59.406-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ebac635
+2024-11-23T10:49:59.410-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T10:49:59.502-03:00  WARN 8036 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:50:01.049-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:50:01.129-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:50:01.837-03:00  WARN 8036 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:50:01.875-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:50:02.405-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T10:50:02.474-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T10:50:02.495-03:00  INFO 8036 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 8.795 seconds (process running for 10.866)
+2024-11-23T10:50:04.684-03:00  INFO 8036 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T10:50:04.684-03:00  INFO 8036 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T10:50:04.686-03:00  INFO 8036 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T10:51:51.818-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 2580 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:51:51.828-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:51:52.129-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T10:51:52.129-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T10:51:54.264-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:51:54.451-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:51:55.724-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:51:55.753-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:51:55.754-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:51:55.897-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:51:55.898-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3767 ms
+2024-11-23T10:51:56.288-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:51:56.385-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T10:51:56.468-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:51:57.239-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:51:57.328-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T10:51:58.172-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@554c1d44
+2024-11-23T10:51:58.178-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T10:51:58.369-03:00  WARN 2580 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:52:00.302-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:52:00.413-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:52:01.374-03:00  WARN 2580 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:52:01.438-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:52:02.364-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T10:52:02.463-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T10:52:02.490-03:00  INFO 2580 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 12.108 seconds (process running for 14.876)
+2024-11-23T10:52:06.576-03:00  INFO 2580 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T10:52:06.576-03:00  INFO 2580 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T10:52:06.578-03:00  INFO 2580 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T10:52:58.017-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 6292 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:52:58.022-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:52:58.181-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T10:52:58.181-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T10:52:59.508-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:52:59.617-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:53:00.512-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:53:00.540-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:53:00.540-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:53:00.630-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:53:00.631-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2449 ms
+2024-11-23T10:53:00.892-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:53:00.982-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T10:53:01.044-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:53:01.655-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:53:01.729-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T10:53:02.342-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@780da2a7
+2024-11-23T10:53:02.345-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T10:53:02.454-03:00  WARN 6292 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:53:03.942-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:53:04.047-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:53:04.722-03:00  WARN 6292 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:53:04.761-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:53:05.292-03:00  WARN 6292 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-11-23T10:53:05.331-03:00  WARN 6292 --- [beadecamozzikerk] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-11-23T10:53:05.334-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:53:05.339-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T10:53:05.356-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T10:53:05.379-03:00  INFO 6292 --- [beadecamozzikerk] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-23T10:53:05.435-03:00 ERROR 6292 --- [beadecamozzikerk] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-11-23T10:53:18.498-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 4980 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:53:18.502-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:53:18.668-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T10:53:18.668-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T10:53:20.012-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:53:20.119-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:53:20.993-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:53:21.022-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:53:21.023-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:53:21.116-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:53:21.117-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2447 ms
+2024-11-23T10:53:21.394-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:53:21.509-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T10:53:21.575-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:53:22.116-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:53:22.175-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T10:53:22.858-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cc36d79
+2024-11-23T10:53:22.864-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T10:53:22.959-03:00  WARN 4980 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:53:24.525-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:53:24.615-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:53:25.289-03:00  WARN 4980 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:53:25.327-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:53:25.944-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T10:53:26.015-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T10:53:26.032-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 8.429 seconds (process running for 10.031)
+2024-11-23T10:53:30.573-03:00  INFO 4980 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T10:53:30.573-03:00  INFO 4980 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T10:53:30.575-03:00  INFO 4980 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T10:57:32.809-03:00  INFO 4980 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-11-23T10:57:32.839-03:00  INFO 4980 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:57:32.848-03:00  INFO 4980 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T10:57:32.883-03:00  INFO 4980 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T10:57:33.139-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 4980 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:57:33.140-03:00  INFO 4980 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:57:36.901-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 964 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T10:57:36.905-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T10:57:37.051-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T10:57:37.052-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T10:57:38.449-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T10:57:38.558-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2024-11-23T10:57:39.505-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T10:57:39.530-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T10:57:39.531-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T10:57:39.626-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T10:57:39.626-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2573 ms
+2024-11-23T10:57:39.912-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T10:57:40.009-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T10:57:40.070-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T10:57:40.801-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T10:57:40.876-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T10:57:41.632-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@481f5be1
+2024-11-23T10:57:41.636-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T10:57:41.759-03:00  WARN 964 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T10:57:43.300-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T10:57:43.387-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T10:57:44.256-03:00  WARN 964 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T10:57:44.329-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T10:57:45.132-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T10:57:45.212-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T10:57:45.238-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 9.197 seconds (process running for 10.664)
+2024-11-23T10:57:45.355-03:00  INFO 964 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T10:57:45.356-03:00  INFO 964 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T10:57:45.357-03:00  INFO 964 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:01:11.216-03:00  INFO 964 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:01:11.271-03:00  INFO 964 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:01:11.281-03:00  INFO 964 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:01:11.307-03:00  INFO 964 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:01:11.475-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 964 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:01:11.476-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:01:11.850-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:01:11.878-03:00  INFO 964 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:01:15.720-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 5164 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:01:15.724-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:01:15.890-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:01:15.891-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:01:17.334-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:01:17.452-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:01:18.488-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:01:18.515-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:01:18.516-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:01:18.611-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:01:18.611-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2719 ms
+2024-11-23T11:01:18.893-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:01:18.999-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:01:19.065-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:01:19.734-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:01:19.826-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:01:20.432-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e9f522c
+2024-11-23T11:01:20.436-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:01:20.545-03:00  WARN 5164 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:01:22.417-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:01:22.495-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:01:23.159-03:00  WARN 5164 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:01:23.207-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:01:23.900-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:01:23.979-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:01:24.002-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 9.034 seconds (process running for 10.674)
+2024-11-23T11:01:30.216-03:00  INFO 5164 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:01:30.216-03:00  INFO 5164 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:01:30.217-03:00  INFO 5164 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:02:13.591-03:00  INFO 5164 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:02:13.617-03:00  INFO 5164 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:02:13.623-03:00  INFO 5164 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:02:13.639-03:00  INFO 5164 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:02:13.793-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 5164 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:02:13.793-03:00  INFO 5164 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:02:17.572-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 9832 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:02:17.576-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:02:17.770-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:02:17.770-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:02:19.158-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:02:19.267-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:02:20.430-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:02:20.488-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:02:20.489-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:02:20.641-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:02:20.643-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2870 ms
+2024-11-23T11:02:20.921-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:02:21.017-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:02:21.084-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:02:21.728-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:02:21.801-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:02:22.532-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c434ef
+2024-11-23T11:02:22.536-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:02:22.653-03:00  WARN 9832 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:02:24.312-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:02:24.399-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:02:25.198-03:00  WARN 9832 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:02:25.239-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:02:25.841-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:02:25.924-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:02:25.942-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 9.163 seconds (process running for 10.832)
+2024-11-23T11:02:31.750-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:02:31.750-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:02:31.752-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:08:16.145-03:00  INFO 9832 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:08:16.177-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:08:16.182-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:08:16.200-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:08:16.360-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 9832 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:08:16.360-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:08:16.720-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:08:16.745-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:08:16.935-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:08:16.936-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:08:16.936-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:08:16.966-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:08:16.966-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2024-11-23T11:08:17.034-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:08:17.039-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:08:17.059-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:08:17.060-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-23T11:08:17.091-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7978b134
+2024-11-23T11:08:17.092-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-23T11:08:17.095-03:00  WARN 9832 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:08:17.191-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:08:17.206-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:08:17.389-03:00  WARN 9832 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:08:17.441-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:08:17.828-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:08:17.866-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:08:17.889-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.593 seconds (process running for 362.779)
+2024-11-23T11:08:17.896-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:08:34.639-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:08:34.639-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:08:34.641-03:00  INFO 9832 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:10:17.514-03:00  INFO 9832 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (1 addition, 1 deletion, 3 modifications)
+2024-11-23T11:10:17.546-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:10:17.548-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-23T11:10:17.565-03:00  INFO 9832 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-11-23T11:10:17.731-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 9832 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:10:17.731-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:10:18.206-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:10:18.243-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:10:20.062-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:10:20.063-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:10:20.063-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:10:20.095-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:10:20.095-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2358 ms
+2024-11-23T11:10:20.160-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:10:20.168-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:10:20.185-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:10:20.188-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-11-23T11:10:20.214-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c39f4f5
+2024-11-23T11:10:20.215-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-11-23T11:10:20.217-03:00  WARN 9832 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:10:20.321-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:10:20.345-03:00  INFO 9832 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:10:36.780-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 9076 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:10:36.783-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:10:36.952-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:10:36.953-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:10:38.337-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:10:38.447-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:10:39.377-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:10:39.404-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:10:39.404-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:10:39.500-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:10:39.501-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2546 ms
+2024-11-23T11:10:39.758-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:10:39.857-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:10:39.917-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:10:40.451-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:10:40.527-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:10:41.224-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6152efac
+2024-11-23T11:10:41.228-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:10:41.328-03:00  WARN 9076 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:10:42.770-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:10:42.857-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:10:43.890-03:00  WARN 9076 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:10:43.942-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:10:44.731-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:10:44.845-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:10:44.870-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 8.968 seconds (process running for 11.056)
+2024-11-23T11:10:45.253-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:10:45.253-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:10:45.254-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:14:16.919-03:00  INFO 9076 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:14:16.951-03:00  INFO 9076 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:14:16.956-03:00  INFO 9076 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:14:16.973-03:00  INFO 9076 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:14:17.139-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 9076 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:14:17.140-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:14:17.531-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:14:17.568-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:14:17.757-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:14:17.759-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:14:17.759-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:14:17.789-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:14:17.790-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 646 ms
+2024-11-23T11:14:17.856-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:14:17.862-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:14:17.881-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:14:17.882-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-23T11:14:17.913-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@383af341
+2024-11-23T11:14:17.914-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-23T11:14:17.917-03:00  WARN 9076 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:14:18.017-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:14:18.041-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:14:18.536-03:00  WARN 9076 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:14:18.596-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:14:19.002-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:14:19.037-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:14:19.049-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.978 seconds (process running for 225.234)
+2024-11-23T11:14:19.052-03:00  INFO 9076 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:14:20.345-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:14:20.345-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:14:20.347-03:00  INFO 9076 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:15:52.876-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 584 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:15:52.879-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:15:53.061-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:15:53.062-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:15:54.562-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:15:54.681-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:15:55.708-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:15:55.737-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:15:55.737-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:15:55.843-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:15:55.844-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2780 ms
+2024-11-23T11:15:56.118-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:15:56.210-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:15:56.274-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:15:56.910-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:15:56.968-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:15:57.721-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ebac635
+2024-11-23T11:15:57.725-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:15:57.833-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:15:59.506-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:15:59.586-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:16:00.210-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:16:00.252-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:16:00.868-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:16:00.940-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:16:00.957-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 8.949 seconds (process running for 11.161)
+2024-11-23T11:16:01.855-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:16:01.855-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:16:01.857-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:16:22.237-03:00  INFO 584 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-11-23T11:16:22.280-03:00  INFO 584 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:16:22.287-03:00  INFO 584 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:16:22.306-03:00  INFO 584 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:16:22.464-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 584 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:16:22.465-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:16:22.826-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:16:22.850-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:16:23.029-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:16:23.031-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:16:23.031-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:16:23.060-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:16:23.060-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 591 ms
+2024-11-23T11:16:23.126-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:16:23.132-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:16:23.150-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:16:23.151-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-23T11:16:23.179-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1624924f
+2024-11-23T11:16:23.180-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-23T11:16:23.183-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:16:23.279-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:16:23.289-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:16:23.472-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:16:23.502-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:16:23.871-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:16:23.917-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:16:23.927-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.528 seconds (process running for 34.131)
+2024-11-23T11:16:23.932-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:16:25.396-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:16:25.399-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:16:25.402-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:17:18.096-03:00  INFO 584 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:17:18.108-03:00  INFO 584 --- [beadecamozzikerk] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:17:18.110-03:00  INFO 584 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-23T11:17:18.126-03:00  INFO 584 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-11-23T11:17:18.313-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 584 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:17:18.313-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:17:18.866-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:17:18.906-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:17:19.154-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:17:19.156-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:17:19.156-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:17:19.199-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:17:19.199-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 879 ms
+2024-11-23T11:17:19.289-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:17:19.300-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:17:19.323-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:17:19.326-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-11-23T11:17:19.373-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c6e2536
+2024-11-23T11:17:19.374-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-11-23T11:17:19.378-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:17:19.556-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:17:19.573-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:17:19.836-03:00  WARN 584 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:17:19.868-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:17:20.147-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:17:20.180-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:17:20.191-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.96 seconds (process running for 90.396)
+2024-11-23T11:17:20.197-03:00  INFO 584 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:17:30.363-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:17:30.364-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:17:30.366-03:00  INFO 584 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:18:58.790-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 10048 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:18:58.794-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:18:58.952-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:18:58.953-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:19:00.605-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:19:00.731-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:19:01.764-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:19:01.797-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:19:01.797-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:19:01.923-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:19:01.924-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2970 ms
+2024-11-23T11:19:02.259-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:19:02.421-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:19:02.479-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:19:03.014-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:19:03.073-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:19:03.807-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@684c5458
+2024-11-23T11:19:03.811-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:19:03.945-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:19:05.668-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:19:05.747-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:19:06.574-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:19:06.613-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:19:07.211-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:19:07.308-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:19:07.339-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 9.242 seconds (process running for 10.851)
+2024-11-23T11:19:07.562-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:19:07.563-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:19:07.564-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:19:59.172-03:00  INFO 10048 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:19:59.187-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:19:59.192-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:19:59.207-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T11:19:59.393-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 10048 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:19:59.394-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:19:59.886-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:19:59.911-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:20:00.138-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:20:00.139-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:20:00.140-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:20:00.175-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:20:00.176-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 765 ms
+2024-11-23T11:20:00.255-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:20:00.260-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:20:00.279-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:20:00.281-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-23T11:20:00.321-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79573a77
+2024-11-23T11:20:00.321-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-23T11:20:00.325-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:20:00.439-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:20:00.457-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:20:00.768-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:20:00.795-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:20:01.167-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:20:01.189-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:20:01.205-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 1.897 seconds (process running for 64.717)
+2024-11-23T11:20:01.209-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:20:06.593-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:20:06.593-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:20:06.594-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-23T11:21:26.301-03:00  INFO 10048 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:21:26.321-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:21:26.322-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-23T11:21:26.338-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-11-23T11:21:26.508-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 10048 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:21:26.509-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:21:26.958-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:21:26.995-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:21:27.690-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:21:27.694-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:21:27.695-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:21:27.739-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:21:27.740-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1226 ms
+2024-11-23T11:21:27.945-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:21:27.958-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:21:27.979-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:21:27.981-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-11-23T11:21:28.025-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51a556ba
+2024-11-23T11:21:28.026-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-11-23T11:21:28.029-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:21:28.178-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:21:28.190-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:21:28.365-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:21:28.380-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:21:28.679-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:21:28.700-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:21:28.712-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 2.28 seconds (process running for 152.224)
+2024-11-23T11:21:28.714-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:21:39.552-03:00  INFO 10048 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:21:39.575-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:21:39.576-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-11-23T11:21:39.588-03:00  INFO 10048 --- [beadecamozzikerk] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-11-23T11:21:39.746-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 10048 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:21:39.747-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:21:40.195-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:21:40.227-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:21:41.585-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:21:41.587-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:21:41.587-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:21:41.637-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:21:41.637-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1885 ms
+2024-11-23T11:21:41.734-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:21:41.743-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:21:41.802-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:21:41.804-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-11-23T11:21:41.851-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1909e599
+2024-11-23T11:21:41.851-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-11-23T11:21:41.854-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:21:41.973-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:21:41.991-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:21:42.240-03:00  WARN 10048 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:21:42.271-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:21:42.603-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:21:42.635-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:21:42.650-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 2.975 seconds (process running for 166.162)
+2024-11-23T11:21:42.652-03:00  INFO 10048 --- [beadecamozzikerk] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-23T11:21:42.763-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:21:42.764-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:21:42.766-03:00  INFO 10048 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:23:04.242-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Starting BeadecamozzikerkApplication using Java 23.0.1 with PID 5156 (D:\eclipse-workspace\beadecamozzikerk\target\classes started by gonza in D:\eclipse-workspace\beadecamozzikerk)
+2024-11-23T11:23:04.246-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T11:23:04.409-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T11:23:04.410-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T11:23:06.542-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T11:23:06.671-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2024-11-23T11:23:07.897-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T11:23:07.927-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T11:23:07.928-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T11:23:08.031-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T11:23:08.031-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3620 ms
+2024-11-23T11:23:08.375-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T11:23:08.486-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-23T11:23:08.556-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T11:23:09.181-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T11:23:09.263-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T11:23:09.974-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa7cde5
+2024-11-23T11:23:09.978-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T11:23:10.077-03:00  WARN 5156 --- [beadecamozzikerk] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T11:23:11.739-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T11:23:11.816-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:23:12.571-03:00  WARN 5156 --- [beadecamozzikerk] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T11:23:12.619-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-11-23T11:23:13.227-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T11:23:13.300-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T11:23:13.316-03:00  INFO 5156 --- [beadecamozzikerk] [restartedMain] c.d.b.BeadecamozzikerkApplication        : Started BeadecamozzikerkApplication in 9.88 seconds (process running for 11.772)
+2024-11-23T11:23:13.513-03:00  INFO 5156 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T11:23:13.513-03:00  INFO 5156 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T11:23:13.516-03:00  INFO 5156 --- [beadecamozzikerk] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-23T11:25:02.703-03:00  INFO 5156 --- [beadecamozzikerk] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-23T11:25:02.724-03:00  INFO 5156 --- [beadecamozzikerk] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T11:25:02.732-03:00  INFO 5156 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T11:25:02.754-03:00  INFO 5156 --- [beadecamozzikerk] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

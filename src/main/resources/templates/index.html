@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Logística</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: block;
+            margin: 10px auto;
+            padding: 15px 25px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gestión de Logística</h1>
+        <p>Sistema de Información para Logística</p>
+    </header>
+    <main>
+        <h2>Seleccione una Acción</h2>
+        <!-- Usa Thymeleaf para las rutas -->
+        <a class="btn" th:href="@{/camiones}">Gestión de Camiones</a>
+        <a class="btn" th:href="@{/caminos/consultar}">Consultar Caminos</a>
+		<a class="btn" th:href="@{/paquetes}">Registrar Paquete</a>
+        <a class="btn" th:href="@{/flota/ubicacion}">Ubicación de la Flota</a>
+    </main>
+</body>
+</html>
