@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Ubicaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form select, form button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button{
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        form button:hover{
+            background-color: #0056b3;
+        }
+        .ubicacion-item {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .ubicacion-item p {
+            margin: 5px 0;
+        }
+        .ubicacion-item button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .ubicacion-item button:hover {
+            background-color: darkred;
+        }
+        .botonInicio {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+        }
+        .botonInicio:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Ubicaciones</h1>
+    </header>
+    <main>
+        <!-- Mensajes de éxito o error -->
+        <div th:if="${success}" style="color: green;">[[${success}]]</div>
+        <div th:if="${error}" style="color: red;">[[${error}]]</div>
+
+        <!-- Formulario de filtrado -->
+		
+		<form action="/ubicacion/gestionar-ubicacion/filtrar" method="get">
+
+            <input type="text" name="patente" placeholder="Filtrar por Patente" />
+            <input type="number" name="codPostal" placeholder="Filtrar por Código Postal" />
+            <button type="submit">Filtrar Ubicaciones</button>
+        </form>
+		
+
+
+        <!-- Lista de ubicaciones -->
+        <div th:each="ubicacion : ${ubicaciones}" class="ubicacion-item">
+            <p><strong>Ciudad:</strong> <span th:text="${ubicacion.ciudad}"></span></p>
+            <p><strong>Estado del Clima:</strong> <span th:text="${ubicacion.estadoClima}"></span></p>
+        </div>
+
+        <!-- Mensaje si no hay ubicaciones -->
+        <div th:if="${#lists.isEmpty(ubicaciones)}">
+            <p>No hay ubicaciones disponibles.</p>
+        </div>
+
+        <!-- Botón para volver al inicio -->
+        <button class="botonInicio" type="button" onclick="window.location.href='/'">Volver al Inicio</button>
+    </main>
+</body>
+</html>
+

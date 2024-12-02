@@ -20,6 +20,13 @@ public class AppController {
 	public String gestionarPaquetes() {
 	    return "gestionar_paquetes"; // Aquí se muestra el HTML para gestionar paquetes
 	}
+	
+	
+	@GetMapping("/ubicaciones")
+	public String gestionarUbicaciones() {
+	    return "gestionar_ubicacion"; // HTML para gestionar ubicaciones
+	}
 
+	
 	
 }
